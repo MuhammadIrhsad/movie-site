@@ -1,3 +1,4 @@
+@import url('./css/bootstrap.min.css');
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +11,19 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+/* .container{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} */
+.filter-bar{
+  height: 100vh;
+}
+.movie-panel{
+  height: 100vh;
+  overflow-y: scroll;
 }
