@@ -7,11 +7,9 @@ const SignIn = (Prop) => {
     const [myPassword, setmyPassword] = useState('');
     const RemoveProperty = (e) => {
         e.preventDefault();
-        alert(`The name you entered was: ${myEmail} and ${Cred[0].email}`);
+        // alert(`The name you entered was: ${myEmail} and ${Cred[0].email}`);
         if (Cred[0].email === myEmail && Cred[0].password === myPassword) {
-            alert(
-                'matched'
-            )
+            
             Prop.ChangeLogIn();
         }
         else {

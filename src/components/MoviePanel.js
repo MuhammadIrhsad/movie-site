@@ -1,7 +1,6 @@
 import { Data } from '../data'
 import Card from '../components/Card'
 const MoviePanel = () => {
-    
     return <>
         <div className='movie-panel col-10 bg-secondary'>
           <div className='row d-flex align-items-center justify-content-center'>
