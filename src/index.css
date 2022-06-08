@@ -27,3 +27,32 @@ code {
   height: 100vh;
   overflow-y: scroll;
 }
+.form-container{
+  width: 100%;
+  height: 100vh;
+  /* background-color: yellowgreen; */
+}
+
+/* //login */
+login {border: 3px solid #f1f1f1;}
+
+input[type=email], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+
