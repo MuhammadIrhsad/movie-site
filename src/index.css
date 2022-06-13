@@ -54,5 +54,7 @@ img.avatar {
   width: 40%;
   border-radius: 50%;
 }
-
+.btn-group-vertical{
+  width: 150px !important;
+}
 

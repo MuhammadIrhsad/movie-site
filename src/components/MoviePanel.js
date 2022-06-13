@@ -1,11 +1,11 @@
-import { Data } from '../data'
+
 import Card from '../components/Card'
-const MoviePanel = () => {
+const MoviePanel = (Prop) => {
     return <>
         <div className='movie-panel col-10 bg-secondary'>
           <div className='row d-flex align-items-center justify-content-center'>
             {
-              Data.map((movie) => {
+              Prop.MovieData.map((movie) => {
                 return <>
                   <div className='col-sm-6 col-lg-3'>
                     <Card
