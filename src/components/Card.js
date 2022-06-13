@@ -11,6 +11,7 @@ function Card(props) {
             cursor:'pointer',
             height: '270px',
             textAlign: 'center',
+            backgoundColor:'yellow',
         },
         HoverContainer:{
             color: 'white',
